@@ -24,19 +24,23 @@ sense, the need for extremely high value resistors, and the potentiometer.  It r
 a 10 position rotary switch which corresponds to the 0-9 desired curves.  The rotary switch provides discrete 
 positive detents that provide for accurate setting of the desired number of curves.
 
-The solution also replaces the 120Hz clock source with a 400Hz clock to drive the counter.  The entire circuit 
-simply replaces the 7490 on the circuit board and can be built as a plug-in daughter card. 
-
-The 7490 BCD count is applied to a 74LS42 BCD-to-decimal decoder that outputs 1 of 10 signals.  These are then 
+The 74LS90 BCD count is applied to a 74LS42 BCD-to-decimal decoder that outputs 1 of 10 signals.  These are then 
 routed to the rotary switch for selection.  The selected signal (1 of 10) is then inverted and used to reset 
-the 74LS90 counter when that count has been reached.
+the 74LS90 counter when that count has been reached.  Note that the reset signal is generated on the terminal
+count, so the desired count is not actually included.  Therefore, the switch routes decoded outputs of 1-9 
+as well as the 10th position tied high to an inverter.  The inverter output is used to generate the reset 
+pulse. 
+
+For example, in position 3 (2 curves), as soon as the BCD count reaches 3, the counter is reset.  This results 
+in only 2 curves being displayed.  Likewise, if the switch is in position 10 (9 curves), the reset pulse is 
+never generated, allowing the counter to overflow from 9 back to 0, resulting in 9 curves. 
 
 To install this modification,
 1. Remove the 7490 (IC6) from the board, leave the socket.  The updated daughter card will plug into this 
    socket. 
 2. Remove the current feedback components (R46, R47, R48, R49, R51, and R52).
-3. Remove the reset circuit (R43, R44, R45, Q17, and Q18). 
-4. Remove the pulse generator components (R41, R42, Q5, and Q6).
+3. The 10 position rotary switch replaces R47 on the front panel.
+4. Remove the reset circuit (R43, R44, R45, Q17, and Q18). 
 5. Build the daughter card and use a 14-pin jumper from J1 to the IC6 socket on the main board. 
 
 ## Logic Supply Regulation 
