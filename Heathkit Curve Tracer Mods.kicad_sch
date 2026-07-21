@@ -1,0 +1,106 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ee5977ae-42a6-4155-a319-84ba8b4975bf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 40.64 36.83)
+		(size 62.23 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d32a2b80-a758-4f4e-8018-3e7f7f3c295d")
+		(property "Sheetname" "Sweep Generator Update"
+			(at 40.64 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sweep_gen_update.kicad_sch"
+			(at 40.64 74.2446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 36.83)
+		(size 59.69 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f12b85e5-c01d-47b5-a6e2-06862da4039d")
+		(property "Sheetname" "Logic Supply Update"
+			(at 114.3 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic_supply_update.kicad_sch"
+			(at 114.3 74.2446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
