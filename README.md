@@ -3,7 +3,7 @@ Several key modifications to the Heathkit IT-x121 series semiconductor curve tra
 semiconductor curve tracers essentially are the same with minor differences.  The schematic is virtually identical 
 between the two. 
 
-The schematic for the IT-1121 is included for reference. 
+The schematic for the IT-1121 [![IT-1121](schematic.png)](schematic.png) is included for reference. 
 
 ## Sweep Generator Modification
 The sweep generator as designed used a 120Hz pulse derived from the secondary power supply to clock a 7490 decade 
