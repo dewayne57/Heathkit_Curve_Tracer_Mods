@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "ee5977ae-42a6-4155-a319-84ba8b4975bf")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Heathkit IT-x121 Curve Tracer Modifications")
+		(date "2026-07-22")
+		(rev "B")
+	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G04"
 			(exclude_from_sim no)
