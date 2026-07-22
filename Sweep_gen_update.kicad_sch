@@ -921,6 +921,135 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x11"
 			(pin_names
 				(offset 1.016)
@@ -2779,6 +2908,302 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM7805_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7805_TO220"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM7805_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7805_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+15V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+15V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+15V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+15V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+15V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -3034,6 +3459,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 166.37 119.38)
+		(end 180.34 152.4)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5bfe29e9-5819-4864-95f0-ccdada9b6548")
+	)
 	(text "9 Curves"
 		(exclude_from_sim no)
 		(at 48.768 93.218 0)
@@ -3133,6 +3570,17 @@
 		)
 		(uuid "6bcefdbd-7161-47a9-a8eb-dc4df35e5faa")
 	)
+	(text "Remove"
+		(exclude_from_sim no)
+		(at 173.228 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b3bdbb9-36c3-48bd-ac48-26c644f35b5b")
+	)
 	(text "This circuit replaces the reset logic of the sweep generator by simply plugging into the 74LS90 socket on the PCB.  J1 is a 14-pin \nribbon cable jumper to that socket.  Several additional components on the PCB \"should\" be removed as they are no longer needed.  It \nshould work just fine if they are not removed.\n\nEnhancements:\n1. The 7.5M potentiometer used in the original circuit is no longer available. This circuit changes from a current sense reset \n   circuit to a digital BCD code reset.  It uses a 10 position rotary switch to set the number of curves desired. The switch has \n   positive detent stops which are more precise than fiddling with a potentiometer and offers repeatable and accurate setting. \n"
 		(exclude_from_sim no)
 		(at 19.304 163.576 0)
@@ -3143,6 +3591,17 @@
 			(justify left)
 		)
 		(uuid "a37be414-095d-4508-a197-cc832f1c62da")
+	)
+	(text "Mount to chassis"
+		(exclude_from_sim no)
+		(at 217.424 107.696 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e680ec6f-8979-4278-bfe4-6a1a4a5fe7b1")
 	)
 	(text "5 Curves"
 		(exclude_from_sim no)
@@ -3156,13 +3615,19 @@
 		(uuid "ff11caa6-3457-4cff-9ad0-79efee723b77")
 	)
 	(junction
+		(at 170.18 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e2f59f-8da1-4646-982d-5b5ca6a4e254")
+	)
+	(junction
 		(at 116.84 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ac40c86-27a2-463a-b586-6d7e9ee84ad9")
 	)
 	(junction
-		(at 223.52 95.25)
+		(at 234.95 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62e154ca-99f7-4f4a-98f3-1200ee982706")
@@ -3204,7 +3669,7 @@
 		(uuid "a604d3ec-26d4-40e3-8ed6-bffaed359bfd")
 	)
 	(junction
-		(at 223.52 77.47)
+		(at 234.95 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6bfabec-b68b-4121-803a-d51a23856579")
@@ -3281,6 +3746,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 116.84) (xy 170.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb53dc8-feb0-4a6a-988e-c85f061b6ae2")
+	)
+	(wire
+		(pts
 			(xy 64.77 76.2) (xy 80.01 76.2)
 		)
 		(stroke
@@ -3331,6 +3806,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b61316c-608c-479b-a213-baa71cc75ec0")
+	)
+	(wire
+		(pts
 			(xy 151.13 59.69) (xy 151.13 71.12)
 		)
 		(stroke
@@ -3348,16 +3833,6 @@
 			(type default)
 		)
 		(uuid "1da7ed09-32ca-4661-b8c1-d3fe2dde83d5")
-	)
-	(wire
-		(pts
-			(xy 213.36 82.55) (xy 213.36 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f135d34-fb0b-4e88-87c2-11a5f8eae411")
 	)
 	(wire
 		(pts
@@ -3551,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 95.25) (xy 213.36 95.25)
+			(xy 234.95 72.39) (xy 224.79 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3611,6 +4086,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 124.46) (xy 223.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea06cfd-a74f-4b22-96a5-b40242d93ff5")
+	)
+	(wire
+		(pts
+			(xy 237.49 111.76) (xy 237.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647b74dd-a864-4047-9da3-54e8d56099e6")
+	)
+	(wire
+		(pts
 			(xy 48.26 93.98) (xy 57.15 93.98)
 		)
 		(stroke
@@ -3618,6 +4113,16 @@
 			(type default)
 		)
 		(uuid "66d862ba-5615-4424-96d9-0ff3d43f5276")
+	)
+	(wire
+		(pts
+			(xy 224.79 54.61) (xy 224.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671ca741-ffa1-486e-89c0-fce7119eae09")
 	)
 	(wire
 		(pts
@@ -3671,7 +4176,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 72.39) (xy 223.52 77.47)
+			(xy 234.95 49.53) (xy 234.95 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3691,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 77.47) (xy 213.36 77.47)
+			(xy 234.95 54.61) (xy 224.79 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3711,6 +4216,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 148.59) (xy 170.18 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d8b20d-38e9-4c50-b207-6fb908ab9207")
+	)
+	(wire
+		(pts
+			(xy 170.18 127) (xy 170.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797ec767-09ee-4563-b3b4-7b64a20363c2")
+	)
+	(wire
+		(pts
 			(xy 128.27 106.68) (xy 153.67 106.68)
 		)
 		(stroke
@@ -3718,16 +4243,6 @@
 			(type default)
 		)
 		(uuid "7c20939f-b331-436b-a4f0-3251613e17e4")
-	)
-	(wire
-		(pts
-			(xy 213.36 90.17) (xy 213.36 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d4fb26d-e5ff-4256-8337-eb54c9881db9")
 	)
 	(wire
 		(pts
@@ -3741,7 +4256,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 82.55) (xy 223.52 77.47)
+			(xy 234.95 59.69) (xy 234.95 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +4436,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 90.17) (xy 223.52 95.25)
+			(xy 234.95 67.31) (xy 234.95 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3961,7 +4476,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 95.25) (xy 223.52 101.6)
+			(xy 234.95 72.39) (xy 234.95 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4041,6 +4556,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 116.84) (xy 237.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d384c3d0-624c-4f50-a10d-11c542980f5b")
+	)
+	(wire
+		(pts
+			(xy 224.79 67.31) (xy 224.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e065279b-13bc-4ae6-a250-c0ace1eaef2c")
+	)
+	(wire
+		(pts
 			(xy 105.41 73.66) (xy 116.84 73.66)
 		)
 		(stroke
@@ -4058,6 +4593,16 @@
 			(type default)
 		)
 		(uuid "e44f0d67-69d4-43bd-a232-e32d64ddfb38")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4dee086-95df-493e-b210-401663c45282")
 	)
 	(wire
 		(pts
@@ -4101,6 +4646,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 116.84) (xy 215.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f171768c-0c2b-4c6e-954d-abcbab1bac51")
+	)
+	(wire
+		(pts
 			(xy 194.31 52.07) (xy 121.92 52.07)
 		)
 		(stroke
@@ -4108,6 +4663,90 @@
 			(type default)
 		)
 		(uuid "f82a1b70-825b-415d-bf57-b15e56cd1e90")
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM7805_TO220")
+		(at 223.52 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ad29c7-9aef-47f5-8320-6771d98fd515")
+		(property "Reference" "U4"
+			(at 223.52 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM7805_TO220"
+			(at 223.52 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 223.52 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 223.52 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
+			(at 223.52 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63084cb1-0f0e-4325-88d2-2e9b19207cbf")
+		)
+		(pin "2"
+			(uuid "f7f706a4-5250-4ff1-980f-e2c671421ff0")
+		)
+		(pin "3"
+			(uuid "38f44577-5ab6-4589-941d-0fdd56d3721d")
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4120,7 +4759,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1793ff95-dc2f-4426-8160-79b188e3b403")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR06"
 			(at 110.49 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4180,7 +4819,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR021")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4836,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22ce1599-0db2-4963-9c1d-448e3ed49004")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR013"
 			(at 191.77 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4257,7 +4896,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR09")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4297,7 +4936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 69.596 114.554 90)
 			(hide yes)
 			(show_name no)
@@ -4380,6 +5019,162 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 237.49 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "414c3d49-3ffe-47c9-b4b0-f38ffc08ada4")
+		(property "Reference" "#PWR017"
+			(at 237.49 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 237.49 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 237.49 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bee78ec6-1b61-4c54-87d6-b4322c7604ca")
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 170.18 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d15ec84-8551-43aa-995a-f5a1c64177a7")
+		(property "Reference" "#PWR010"
+			(at 170.18 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 170.18 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 170.18 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d22952e8-2603-4293-a970-9fd7e347f01c")
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 171.45 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -4389,7 +5184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "535f5c35-931d-4db4-9596-46dcd2a3bae4")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR012"
 			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4449,7 +5244,167 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR06")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 170.18 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53ca162f-58a7-498f-a8b8-15fbfadb2b7f")
+		(property "Reference" "R2"
+			(at 172.72 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "360"
+			(at 172.72 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.196 123.444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 170.18 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3c0c197-9db8-4a95-a778-f492fa157005")
+		)
+		(pin "2"
+			(uuid "9345fe34-6111-4753-9641-93d4f96518e6")
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65e85629-60ed-4f2e-8ebb-78282cf0706f")
+		(property "Reference" "#PWR011"
+			(at 170.18 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce8586df-23c6-4af0-8231-be3b0f445f42")
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4466,7 +5421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "683af9d3-65f0-43b6-ba18-f1e06c24a4ad")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 135.89 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4526,7 +5481,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4543,7 +5498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69a33626-aa7c-4001-b01c-15f4a38800da")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 92.71 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4604,7 +5559,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4612,7 +5567,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 223.52 72.39 0)
+		(at 234.95 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4621,8 +5576,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6db82229-5921-45ac-824e-f1cfe1999abf")
-		(property "Reference" "#PWR010"
-			(at 223.52 76.2 0)
+		(property "Reference" "#PWR015"
+			(at 234.95 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +5588,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 223.52 68.58 0)
+			(at 234.95 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4643,7 +5598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 72.39 0)
+			(at 234.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4654,7 +5609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 72.39 0)
+			(at 234.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4665,7 +5620,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 72.39 0)
+			(at 234.95 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,7 +5636,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4689,7 +5644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 101.6 0)
+		(at 234.95 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4698,8 +5653,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "789136d1-780e-4951-b593-79f1e8cc3824")
-		(property "Reference" "#PWR011"
-			(at 223.52 107.95 0)
+		(property "Reference" "#PWR016"
+			(at 234.95 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4710,7 +5665,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 105.41 0)
+			(at 234.95 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4720,7 +5675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 101.6 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +5686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 101.6 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +5697,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 101.6 0)
+			(at 234.95 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4758,7 +5713,89 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR011")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 170.18 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80c9c5c2-1ee0-4fa1-b3b8-9c70e2cd7865")
+		(property "Reference" "C1"
+			(at 173.99 142.875 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 173.99 145.415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 170.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50aa0d6c-5377-4e08-a4cb-329e81ca967e")
+		)
+		(pin "2"
+			(uuid "a2771f1e-255e-4045-8bb4-59faa7b2b453")
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4883,7 +5920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cc5c885-a26a-4c79-98e5-f5c50a7c9d18")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 84.074 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4989,7 +6026,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5006,7 +6043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95102a3b-2095-4e80-a757-f89fe2ea8845")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR05"
 			(at 110.49 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5066,7 +6103,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR019")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5083,7 +6120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96beace5-ac9a-4741-81ab-f087cd3ee6ba")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 135.89 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5143,7 +6180,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5160,7 +6197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b259566c-d081-42a5-a1bd-201ff1fb75ee")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR09"
 			(at 158.75 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +6257,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR016")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5228,7 +6265,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 213.36 86.36 0)
+		(at 224.79 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5236,10 +6273,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b4cab284-e122-4f28-839c-3dd1a38103c9")
 		(property "Reference" "C2"
-			(at 217.17 84.455 0)
+			(at 226.822 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5249,8 +6285,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
-			(at 217.17 86.995 0)
+		(property "Value" "470"
+			(at 227.076 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5260,8 +6296,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 213.36 86.36 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x14.3"
+			(at 224.79 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5272,7 +6308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 86.36 0)
+			(at 224.79 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5283,7 +6319,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 213.36 86.36 0)
+			(at 224.79 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,6 +6345,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 223.52 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bee949e9-7069-434d-bf9b-cace387c7a77")
+		(property "Reference" "#PWR014"
+			(at 223.52 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0be7a1e3-1474-48a7-884b-d3a146bd7cee")
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 68.58 66.04 0)
 		(unit 1)
@@ -5319,7 +6432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5583bbb-32ef-480a-b3b4-93a5377a1e3e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR01"
 			(at 68.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5379,7 +6492,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR020")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5387,7 +6500,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_US")
-		(at 223.52 86.36 0)
+		(at 234.95 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5398,7 +6511,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8463d2b-7389-4f1e-8ca4-1ce2c590ee30")
 		(property "Reference" "C3"
-			(at 227.33 85.344 0)
+			(at 238.76 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5409,7 +6522,7 @@
 			)
 		)
 		(property "Value" "0.1"
-			(at 227.33 87.884 0)
+			(at 238.76 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5419,8 +6532,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 223.52 86.36 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 234.95 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5431,7 +6544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 86.36 0)
+			(at 234.95 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5442,7 +6555,7 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
-			(at 223.52 86.36 0)
+			(at 234.95 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5468,6 +6581,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 203.2 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce1e661d-1a2b-4aba-9cf0-f2929a5897d2")
+		(property "Reference" "J3"
+			(at 203.2 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15"
+			(at 203.2 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit"
+			(at 203.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 203.2 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d817325e-ac3e-47a9-9bd0-08946f0f12cc")
+		)
+		(instances
+			(project "Heathkit Curve Tracer Mods"
+				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 120.65 0)
 		(unit 1)
@@ -5478,7 +6668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1e23717-1e4e-43e6-a41a-48e742aee32a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 68.58 127 0)
 			(hide yes)
 			(show_name no)
@@ -5539,7 +6729,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5779,7 +6969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f59a5b9c-db69-4a38-b772-23d699333461")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 92.71 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5839,7 +7029,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5856,7 +7046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbd16cd4-09eb-4b76-a84b-9651d3f21da2")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 114.3 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,7 +7066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 115.57 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5927,7 +7117,7 @@
 		(instances
 			(project "Heathkit Curve Tracer Mods"
 				(path "/ee5977ae-42a6-4155-a319-84ba8b4975bf/d32a2b80-a758-4f4e-8018-3e7f7f3c295d"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
