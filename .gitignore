@@ -4,3 +4,4 @@
 **/*.gbrjob
 **/*.drl
 **/*.history
+**/*-backups

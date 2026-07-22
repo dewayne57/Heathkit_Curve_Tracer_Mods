@@ -3537,7 +3537,7 @@
 		)
 		(uuid "7908acf9-685e-434f-a2ae-a41055b5d93a")
 	)
-	(text "This circuit replaces the reset logic of the sweep generator by simply plugging into the 74LS90 socket on the PCB.  J1 is a 14-pin \nribbon cable jumper to that socket.  Several additional components on the PCB \"should\" be removed as they are no longer needed.  It \nshould work just fine if they are not removed.\n\nEnhancements:\n1. The 7.5M potentiometer used in the original circuit is no longer available. This circuit changes from a current sense reset \n   circuit to a digital BCD code reset.  It uses a 10 position rotary switch to set the number of curves desired. The switch has \n   positive detent stops which are more precise than fiddling with a potentiometer and offers repeatable and accurate setting. \n"
+	(text "This circuit replaces the reset logic of the sweep generator by simply plugging into the 74LS90 socket on the PCB and adding a +15V\nsupply pickoff to the main board.  J1 is a 14-pin ribbon cable jumper to that socket.  The sweep generator reset transistors and resistors\nshould be removed, as well as the +5V dropping resistor and filter capacitor.\n\nEnhancements:\n1. The 7.5M potentiometer used in the original circuit is no longer available. This circuit changes from a current sense reset \n   circuit to a digital BCD code reset.  It uses a 10 position rotary switch to set the number of curves desired. The switch has \n   positive detent stops which are more precise than fiddling with a potentiometer and offers repeatable and accurate setting. \n"
 		(exclude_from_sim no)
 		(at 25.654 147.066 0)
 		(effects
