@@ -3544,7 +3544,7 @@
 	)
 	(text "This circuit replaces the reset logic of the sweep generator by simply plugging into the 74LS90 socket on the PCB and adding a +15V\nsupply pickoff to the main board.  J1 is a 14-pin ribbon cable jumper to that socket.  The sweep generator reset transistors and resistors\nshould be removed, as well as the +5V dropping resistor and filter capacitor.\n\nEnhancements:\n1. The 7.5M potentiometer used in the original circuit is no longer available. This circuit changes from a current sense reset \n   circuit to a digital BCD code reset.  It uses a 10 position rotary switch to set the number of curves desired. The switch has \n   positive detent stops which are more precise than fiddling with a potentiometer and offers repeatable and accurate setting. \n"
 		(exclude_from_sim no)
-		(at 25.654 147.066 0)
+		(at 25.146 158.496 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -3741,16 +3741,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 74.93) (xy 86.36 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07354070-22e9-4867-bd69-b9aca65bbb96")
-	)
-	(wire
-		(pts
 			(xy 182.88 74.93) (xy 177.8 74.93)
 		)
 		(stroke
@@ -3821,6 +3811,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 59.69) (xy 86.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb0c00f-7641-42f7-9e1b-a8005ea18245")
+	)
+	(wire
+		(pts
 			(xy 125.73 54.61) (xy 129.54 54.61)
 		)
 		(stroke
@@ -3861,6 +3861,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 57.15) (xy 86.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25cf25d0-3176-4005-b062-0967c98b03ab")
+	)
+	(wire
+		(pts
 			(xy 195.58 64.77) (xy 198.12 64.77)
 		)
 		(stroke
@@ -3898,16 +3908,6 @@
 			(type default)
 		)
 		(uuid "33376f5f-bf40-4704-bcaa-240f9c762749")
-	)
-	(wire
-		(pts
-			(xy 71.12 80.01) (xy 74.93 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "337e8f67-f493-44f5-a626-931f72e82ae3")
 	)
 	(wire
 		(pts
@@ -4001,13 +4001,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 57.15) (xy 86.36 57.15)
+			(xy 71.12 67.31) (xy 86.36 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4410f7d7-8239-4200-9965-fb85c993f8f6")
+		(uuid "44c38a38-fcbd-4211-b669-b6a3eba905ad")
 	)
 	(wire
 		(pts
@@ -4018,6 +4018,26 @@
 			(type default)
 		)
 		(uuid "45513bee-9351-4238-8c4f-4d3d25a77681")
+	)
+	(wire
+		(pts
+			(xy 71.12 54.61) (xy 86.36 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462ee36f-1975-4f72-b25d-a7cb66098741")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 86.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47acef8e-90a4-489b-9fbd-2105190c5c0e")
 	)
 	(wire
 		(pts
@@ -4171,16 +4191,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 54.61) (xy 86.36 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70dd970c-a94a-4a2d-bfde-54c8296ff5aa")
-	)
-	(wire
-		(pts
 			(xy 111.76 59.69) (xy 120.65 59.69)
 		)
 		(stroke
@@ -4231,6 +4241,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 64.77) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810345fe-b599-4189-bd81-11219a81096b")
+	)
+	(wire
+		(pts
 			(xy 231.14 50.8) (xy 231.14 55.88)
 		)
 		(stroke
@@ -4251,16 +4271,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 64.77) (xy 86.36 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86666d5a-ad03-4123-8d1c-3b30e515f277")
-	)
-	(wire
-		(pts
 			(xy 176.53 132.08) (xy 176.53 138.43)
 		)
 		(stroke
@@ -4271,16 +4281,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 62.23) (xy 86.36 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ce56b4c-57c7-4f6d-a6fe-99a8188d72fc")
-	)
-	(wire
-		(pts
 			(xy 198.12 74.93) (xy 195.58 74.93)
 		)
 		(stroke
@@ -4288,16 +4288,6 @@
 			(type default)
 		)
 		(uuid "8d6df7df-c31b-40b6-8a3f-555baef8dc38")
-	)
-	(wire
-		(pts
-			(xy 71.12 72.39) (xy 86.36 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "936d69f4-5e00-486a-ae9e-ec5c137657ae")
 	)
 	(wire
 		(pts
@@ -4351,16 +4341,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 59.69) (xy 86.36 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aea99a9e-3841-4970-b82a-fd56372961bf")
-	)
-	(wire
-		(pts
 			(xy 74.93 80.01) (xy 74.93 90.17)
 		)
 		(stroke
@@ -4401,6 +4381,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 80.01) (xy 74.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafe106c-88b6-4845-ae32-245dacf0b324")
+	)
+	(wire
+		(pts
 			(xy 176.53 96.52) (xy 176.53 100.33)
 		)
 		(stroke
@@ -4411,16 +4401,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 69.85) (xy 86.36 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be526ae5-e6d7-407d-b707-a9548a34d06a")
-	)
-	(wire
-		(pts
 			(xy 195.58 80.01) (xy 205.74 80.01)
 		)
 		(stroke
@@ -4428,6 +4408,26 @@
 			(type default)
 		)
 		(uuid "bebb4b0d-0b33-4f33-93a0-50e0861e002c")
+	)
+	(wire
+		(pts
+			(xy 71.12 72.39) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf28f58b-7671-4095-93bc-7480cc85685b")
+	)
+	(wire
+		(pts
+			(xy 71.12 77.47) (xy 74.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c508307b-6720-4994-994c-16c385f5884d")
 	)
 	(wire
 		(pts
@@ -4511,16 +4511,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 67.31) (xy 86.36 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbcbcf14-8d5f-4d43-bba6-793e6700c1c8")
-	)
-	(wire
-		(pts
 			(xy 203.2 33.02) (xy 125.73 33.02)
 		)
 		(stroke
@@ -4531,6 +4521,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 62.23) (xy 86.36 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfff96bc-94c0-4c78-9e9b-cb4ad29cb97d")
+	)
+	(wire
+		(pts
 			(xy 154.94 52.07) (xy 198.12 52.07)
 		)
 		(stroke
@@ -4538,6 +4538,16 @@
 			(type default)
 		)
 		(uuid "e0d35ef7-77ea-4848-8752-3f75547f900d")
+	)
+	(wire
+		(pts
+			(xy 71.12 74.93) (xy 86.36 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2518868-1d82-4ce0-831c-bc44dfbcbcf6")
 	)
 	(wire
 		(pts
@@ -4568,16 +4578,6 @@
 			(type default)
 		)
 		(uuid "e761b8bd-a264-40b7-9864-6caeaad90444")
-	)
-	(wire
-		(pts
-			(xy 74.93 77.47) (xy 71.12 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec94f09c-7ec3-45af-82c6-c5502f36209d")
 	)
 	(wire
 		(pts
@@ -4701,7 +4701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-14_W10.16mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 187.96 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7058,8 +7058,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x11")
-		(at 66.04 67.31 0)
-		(mirror y)
+		(at 66.04 67.31 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7069,7 +7068,7 @@
 		(dnp no)
 		(uuid "f5c663ae-16a3-46d0-b954-d4ed7401a149")
 		(property "Reference" "J1"
-			(at 66.04 86.36 0)
+			(at 66.04 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7079,7 +7078,7 @@
 			)
 		)
 		(property "Value" "Switch"
-			(at 66.04 83.82 0)
+			(at 66.04 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
